@@ -21,23 +21,26 @@
 
 
 	<!-- Hlavicka -->
-	<h1>Kadeřnictví Scissors <small>(není opravdové)</small></h1>
-
-
-
-	<!-- Hlavni menu -->
-	<ul>
-		<li><a href="#kadernice">Kadeřnice</a></li>
-		<li><a href="#sluzby">Služby</a></li>
-		<li><a href="#reference">Řekli o nás</a></li>
-		<li><a href="#fotogalerie">Fotogalerie</a></li>
-		<li><a href="#kontakt">Kontakt</a></li>
-	</ul>
-
+<div class="navbar navbar-expand-lg bg-dark text-light">
+	<div class="container-fluid d-flex justify-items-space-between">
+		
+		<h1 class="navbar-brand col-12 col-md-5 d-flex color-white text-align-left">Kadeřnictví Scissors <small>(není opravdové)</small></h1>
+		
+		<!-- Hlavni menu -->
+	
+		<ul class="navbar-nav col-12 col-md-7 d-flex justify-content-flex-end">
+		<li class="nav-item"><a class="col-12 col-md-2 nav-link active text-light align-items-flex-end" href="#sluzby">Služby</a></li>
+		<li class="nav-item"><a class="col-12 col-md-4 nav-link active text-light align-items-flex-end" href="#reference">Řekli o nás</a></li>
+		<li class="nav-item"><a class="col-12 col-md-2 nav-link active text-light align-items-flex-end" href="#fotogalerie">Fotogalerie</a></li>
+		<li class="nav-item"><a class="col-12 col-md-2 nav-link active text-light align-items-flex-end" href="#kontakt">Kontakt</a></li>
+		<li class="nav-item"><a class="col-12 col-md-2 nav-link active text-light align-items-flex-end" href="#kadernice">Kadeřnice</a></li>
+		</ul>
+	</div>
+</div>
 
 
 	<!-- Obrazek -->
-	<img src="images/carousel1.jpg" alt="Kadeřnictví">
+	<img class="container-fluid p-0" src="images/carousel1.jpg" alt="Kadeřnictví">
 
 
 
@@ -68,7 +71,7 @@
 
 
 	<!-- Sluzby -->
-
+	<div class="sekce-bila">
 	<h2 id="sluzby">Služby</h2>
 
 	<img src="images/sluzby-damske.svg" width="100" height="100" alt="Dámské kadeřnictví">
@@ -115,7 +118,7 @@
 			</tr>
 		</tbody>
 	</table>
-
+</div>
 	<!-- konec #sluzby -->
 
 
@@ -145,30 +148,34 @@
 
 
 	<!-- Fotogalerie -->
+<div class="sekce-bila">
+	
+	<h2 id="fotogalerie" class="d-flex justify-content-center">Fotogalerie</h2>
 
-	<h2 id="fotogalerie">Fotogalerie</h2>
-
-	<img src="images/foto01.jpg" alt="Foto 01">
-	<img src="images/foto02.jpg" alt="Foto 02">
-	<img src="images/foto03.jpg" alt="Foto 03">
-	<img src="images/foto04.jpg" alt="Foto 04">
-	<img src="images/foto05.jpg" alt="Foto 05">
-	<img src="images/foto06.jpg" alt="Foto 06">
-	<img src="images/foto07.jpg" alt="Foto 07">
-	<img src="images/foto08.jpg" alt="Foto 08">
-	<img src="images/foto09.jpg" alt="Foto 09">
-	<img src="images/foto10.jpg" alt="Foto 10">
-	<img src="images/foto11.jpg" alt="Foto 11">
-	<img src="images/foto12.jpg" alt="Foto 12">
-
+	<div class="container-fluid p-0 m-0 flex-wrap">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto01.jpg" alt="Foto 01">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto02.jpg" alt="Foto 02">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto03.jpg" alt="Foto 03">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto04.jpg" alt="Foto 04">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto05.jpg" alt="Foto 05">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto06.jpg" alt="Foto 06">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto07.jpg" alt="Foto 07">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto08.jpg" alt="Foto 08">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto09.jpg" alt="Foto 09">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto10.jpg" alt="Foto 10">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto11.jpg" alt="Foto 11">
+		<img class="col-xs-4 col-sm-3 col-lg-2" src="images/foto12.jpg" alt="Foto 12">
+	</div>
+</div>
 	<!-- konec #fotogalerie -->
 
 
 
 	<!-- Kontakt -->
 
-	<h2 id="kontakt">Kontakt</h2>
+	<h2 id="kontakt" class="d-flex justify-content-center">Kontakt</h2>
 
+	<div class="container col-sm-6 col-md-4 p-0">
 	<h3>Otevírací doba</h3>
 
 	<table>
@@ -191,8 +198,9 @@
 			</tr>
 		</tbody>
 	</table>
+</div>
 
-
+<div class="container col-sm-6 col-md-4 p-0">
 	<h3>Kadeřnictví Scissors</h3>
 	<p>
 		Pouliční třída 13/2047<br>
@@ -202,9 +210,10 @@
 	<p><a href="mailto:ahoj@scissors.cz">ahoj@scissors.cz</a></p>
 
 	<p>Telefonické objednávky:<br>+420 123 456 789</p>
+</div>
 
-
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20480.33164028703!2d14.39369546845803!3d50.08551071335367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x75209738d1d3b126!2sCharles+Bridge!5e0!3m2!1sen!2scz!4v1464236145887" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<iframe class="container col-sm-12 col-md-4 p-0"
+	src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20480.33164028703!2d14.39369546845803!3d50.08551071335367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x75209738d1d3b126!2sCharles+Bridge!5e0!3m2!1sen!2scz!4v1464236145887" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 	<!-- konec #kontakt -->
 

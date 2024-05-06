@@ -13,3 +13,6 @@ světle šedá: #f0f0f0
 */
 
 /* --- pod tuto čáru piš svoje CSS --- */
+h1, h3 {color: #c5308a;}
+.sekce-bila {background-color: white;}
+.sekce-seda {background-color: #f0f0f0;}
