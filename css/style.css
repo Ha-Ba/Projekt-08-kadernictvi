@@ -13,6 +13,28 @@ světle šedá: #f0f0f0
 */
 
 /* --- pod tuto čáru piš svoje CSS --- */
-h1, h3 {color: #c5308a;}
+h1, h3 {color: #c5308a;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
 .sekce-bila {background-color: white;}
+
 .sekce-seda {background-color: #f0f0f0;}
+
+.akce {
+    background-color: #c5308a;
+    color: white;}
+
+p {margin-bottom: 0;}
+
+.damske-kadernice {
+    text-align: center;
+    padding: 10px;}
+
+.damske-kadernice img {
+    border-radius: 50%;
+    width: 70%;}

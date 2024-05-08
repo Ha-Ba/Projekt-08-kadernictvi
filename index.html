@@ -22,13 +22,14 @@
 
 	<!-- Hlavicka -->
 <div class="navbar navbar-expand-lg bg-dark text-light">
-	<div class="container-fluid d-flex justify-items-space-between">
+	<div class="container-fluid">
+		<!-- d-flex justify-items-space-between -->
 		
-		<h1 class="navbar-brand col-12 col-md-5 d-flex color-white text-align-left">Kadeřnictví Scissors <small>(není opravdové)</small></h1>
+		<h1 class="navbar-brand color-white text-align-left">Kadeřnictví Scissors <small>(není opravdové)</small></h1><!-- d-flex col-12 col-md-5  -->
 		
 		<!-- Hlavni menu -->
 	
-		<ul class="navbar-nav col-12 col-md-7 d-flex justify-content-flex-end">
+		<ul class="navbar-nav col-12 col-md-7">
 		<li class="nav-item"><a class="col-12 col-md-2 nav-link active text-light align-items-flex-end" href="#sluzby">Služby</a></li>
 		<li class="nav-item"><a class="col-12 col-md-4 nav-link active text-light align-items-flex-end" href="#reference">Řekli o nás</a></li>
 		<li class="nav-item"><a class="col-12 col-md-2 nav-link active text-light align-items-flex-end" href="#fotogalerie">Fotogalerie</a></li>
@@ -45,34 +46,38 @@
 
 
 	<!-- Akce, novinky -->
-	<h2>Akce -30&nbsp;%</h2>
-	<p>Květen je měsíc vlasů. Přijď ho s námi oslavit a <strong>získej slevu 30&nbsp;%</strong> na všechny naše služby. Ohrom své přátele novým účesem.</p>
-
+	<div class="akce container-fluid d-flex flex-wrap align-items-center">
+	<h2 class="col-md-4">Akce -30&nbsp;%</h2>
+	<p class="col-md-8">Květen je měsíc vlasů. Přijď ho s námi oslavit a <strong>získej slevu 30&nbsp;%</strong> na všechny naše služby. Ohrom své přátele novým účesem.</p>
+	</div>
 
 
 	<!-- Kadernice -->
 
-	<h2 id="kadernice">Naše kadeřnice</h2>
-
+	<h2 id="kadernice" class="container d-flex flex-wrap g-0 p-0">Naše kadeřnice</h2>
+	<div class="damske-kadernice col-sm-12 col-md-4 d-flex flex-wrap justify-content-center m-0">
 	<img src="images/kadernice-helena.jpg" alt="Helena Králíková">
 	<h3>Helena Králíková</h3>
 	<p>Kadeřnice s více než patnáctiletou praxí, jedna ze zakladatelek české kadeřnické akademie. Specialistka na exotické účesy pro zvláštní příležitosti.</p>
+	</div>
 
+	<div class="damske-kadernice col-sm-12 col-md-4 d-flex flex-wrap justify-content-center m-0">
 	<img src="images/kadernice-eliska.jpg" alt="Eliška Dvořáková">
 	<h3>Eliška Dvořáková</h3>
 	<p>Držitelka několika národních i mezinárodních ocenění, mimo jiné i Kadeřnice roku a Účes roku. Spolupracuje s předními českými i světovými kadeřníky.</p>
+	</div>
 
+	<div class="damske-kadernice col-sm-12 col-md-4 d-flex flex-wrap justify-content-center m-0">
 	<img src="images/kadernice-jarmila.jpg" alt="Jarmila Prokopová">
 	<h3>Jarmila Prokopová</h3>
 	<p>Specialistka na pánské a dětské střihy se zkušenostmi s česáním módních přehlídek a vlasových show. Certifikovaná odbornice na modeláž nehtů.</p>
-
-	<!-- konec #kadernice -->
+	</div>		<!-- konec #kadernice -->
 
 
 
 	<!-- Sluzby -->
 	<div class="sekce-bila">
-	<h2 id="sluzby">Služby</h2>
+	<h2 id="sluzby" class="sluzby d-flex justify-content-center">Služby</h2>
 
 	<img src="images/sluzby-damske.svg" width="100" height="100" alt="Dámské kadeřnictví">
 	<h3>Dámské kadeřnictví</h3>
@@ -124,8 +129,8 @@
 
 
 	<!-- Reference / Rekli o nas -->
-
-	<h2 id="reference">Řekli o nás</h2>
+<div class="rerefence">
+	<h2 id="reference" class="d-flex justify-content-center">Řekli o nás</h2>
 
 	<img src="images/reference-lucie.jpg" alt="Lucie Nováková">
 	<p>Kadeřnictví Scissors je v Praze prostě nejlepší. Vím to s jistotou, protože normálně mám vlasy jako dikobraz a po ostřihání vypadám vždy jako supermodelka.<br>
@@ -144,7 +149,7 @@
 	<em>&mdash; Libor Kohout</em></p>
 
 	<!-- konec #reference -->
-
+</div>
 
 
 	<!-- Fotogalerie -->
