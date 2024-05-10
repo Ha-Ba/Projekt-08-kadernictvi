@@ -13,29 +13,29 @@ světle šedá: #f0f0f0
 */
 
 /* --- pod tuto čáru piš svoje CSS --- */
-h1, h3 {color: #c5308a;
-    margin-top: 10px;
-    margin-bottom: 10px;}
+body {margin: 0 auto;}
 
-h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;}
+h1, h3 {color: #c5308a;
+    margin-top: 1rem;
+    margin-bottom: 1rem;}
+
+h2 {margin: 1rem;}
 
 .sekce-bila {background-color: white;
-padding: 2rem;}
+}
 
 .sekce-seda {background-color: #f0f0f0;
-padding: 2rem;}
+margin: 0;
+}
 
 .akce {
     background-color: #c5308a;
     color: white;}
 
-p {margin-bottom: 0;}
+/* p {margin: 0.5rem;} */
 
 .damske-kadernice {
     text-align: center;
-    /* padding: 10px; */
 }
 
 .damske-kadernice img {  
@@ -45,5 +45,15 @@ p {margin-bottom: 0;}
 .o-nas img {
     border-radius: 50%;
     width: 100px;
+    padding: 0.5rem;
+    position: relative;
+    align-self: center;
 
 }
+.o-nas {border: 1px solid red;}
+
+.box-o-nas {
+    border: 1px dashed #c5308a;
+}
+.nase-reference {padding: 1rem;}
+
