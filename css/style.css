@@ -18,12 +18,14 @@ h1, h3 {color: #c5308a;
     margin-bottom: 10px;}
 
 h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;}
+    margin-top: 20px;
+    margin-bottom: 20px;}
 
-.sekce-bila {background-color: white;}
+.sekce-bila {background-color: white;
+padding: 2rem;}
 
-.sekce-seda {background-color: #f0f0f0;}
+.sekce-seda {background-color: #f0f0f0;
+padding: 2rem;}
 
 .akce {
     background-color: #c5308a;
@@ -33,8 +35,15 @@ p {margin-bottom: 0;}
 
 .damske-kadernice {
     text-align: center;
-    padding: 10px;}
+    /* padding: 10px; */
+}
 
-.damske-kadernice img {
+.damske-kadernice img {  
     border-radius: 50%;
-    width: 70%;}
+    width: 50%;
+}
+.o-nas img {
+    border-radius: 50%;
+    width: 100px;
+
+}
