@@ -58,6 +58,9 @@ td {
     padding: 1rem;
 }
 
+.social-link a,
+.photo-license a {text-decoration: none;
+color: #c5308a;}
 
 
 
