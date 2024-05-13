@@ -32,16 +32,10 @@ margin: 0;
     background-color: #c5308a;
     color: white;}
 
-/* p {margin: 0.5rem;} */
-
-.damske-kadernice {
-    text-align: center;
-}
-
-.damske-kadernice img {  
+.nase-kadernice img {  
     border-radius: 50%;
-    width: 50%;
 }
+
 .o-nas img {
     border-radius: 50%;
     width: 100px;
